@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Quicksand", serif;
+    font-size: 10px;
+}
+.orange{
+    color: #FEA301;
+}
+.sky-blue{
+    color: #01ACFD;
+}
+.black{
+    color: #111;
+}
+.light-skyblue{
+    color: #05D4DF;
+}
+.blue{
+    color: #5D58EF;
+}
+.purple{
+    color: #8700FF;
+}
+/* Navbar design */
+
+.hamburger li{
+    list-style: none;
+}
+.hamburger li i{
+    font-size: 3em;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+nav{
+    max-width: 1020px;
+    margin: 0 auto;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    
+}
+.logo img{
+    width: 62px;
+    height: 62px;
+}
+.logo h2{
+    font-size: 3em;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+}
+.navbar li{
+    list-style: none;
+    margin-right: 15px;
+    font-size: 2em;
+}
+.navbar li a{
+    text-decoration: none;
+}
+.nav-btn{
+    display: flex;
+    align-items: center;
+    
+}
+.btn{
+    background-color: #FEA301;
+    color: #fff;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 10px;
+}
+
+/*banner section */
+.banner{
+    display: flex;
+    max-width: 910px;
+    margin: 0 auto;
+    
+    
+}
+.banner h1{
+    font-size: 4.5em;
+    font-weight: 700;
+    padding-top: 80px;
+    
+}
+.banner-content p {
+    margin: 20px 0;
+    font-size: 1.4em;
+}
+.banner-btn button{
+    background-color: #111;
+}
+.banner-img{
+    width: 380px;
+    margin-left: 60px;
+}
+
+/*standard curriculum */
+.standard-curriculam{
+    max-width: 910px;
+    margin: 0 auto;
+    padding-top: 80px;
+}
+.standard-curriculam h2{
+    font-size: 3.5em;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+
+.grid-curriculam{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-bottom: 30px;
+}
+.curriculam-items{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.curriculam-items img{
+    width: 50%;
+}
+.curriculam-items h3{
+    font-size: 2em;
+}
+.curriculam-items p{
+    font-size: 1.2em;
+}
+.curriculam-items a{
+    font-size: 1.2em;
+    text-decoration: none;
+}
+.one{
+    background-image: linear-gradient(#DEF5FF, #fff);
+    
+}
+.two{
+    background-image: linear-gradient(#FFF4DC, #fff);
+    
+}
+.three{
+    background-image: linear-gradient(#EEE1FF, #fff);
+    
+}
+

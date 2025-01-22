@@ -1,0 +1,58 @@
+@media screen and (min-width: 577px)and (max-width: 1400px)
+  {
+    .hamburger{
+        display: none;
+      }
+  }
+
+@media screen and (max-width: 576px) {
+
+    /*nav section */
+    .hamburger{
+        padding: 0 10px;
+    }
+    .hamburger li i {
+      display: visible;
+    }
+    .logo h2{
+        display: none;
+    }
+    .navbar{
+        display: none;
+    }
+    .nav-btn{
+        display: none;
+    }
+    nav{
+        justify-content: space-between;
+        margin: 0 30px;
+    }
+
+    /* banner section */
+    section{
+        padding: 0 20px;
+    }
+    .banner{
+       flex-direction: column-reverse;
+       justify-content: center;
+    }
+    .banner-content{
+        
+        text-align: center;
+    }
+    .banner-img{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner-img img{
+        width: 100vh;
+      
+    }
+    /*standard curriculum*/
+  .grid-curriculam{
+    grid-template-columns: repeat(1, 1fr);
+  }
+  }
+  
+  
