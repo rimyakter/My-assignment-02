@@ -109,6 +109,9 @@ nav{
 
 /*standard curriculum */
 .standard-curriculam{
+    background: url("../img/bg.png");
+    background-size: cover;
+    background-repeat: repeat-y;
     max-width: 910px;
     margin: 0 auto;
     padding-top: 80px;
@@ -161,4 +164,120 @@ nav{
     background-image: linear-gradient(#EEE1FF, #fff);
     
 }
+/* Arrow section */
+.arrow-container{
+    max-width: 910px;
+    margin: 0 auto;
+    padding: 80px 60px;
+    background: url("../img/bg.png");
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.arrow{
+    font-size: 2em;
+    color: #fff;
+    background-color: #FEA301;
+    text-align: center;
+    padding: 8px 15px;
+    border-radius: 50%;
+}
+.arrow:hover{
+    background-color: #5D58F0;
+    transition: 1s;
+}
+/* Our stories section */
 
+.ellipsis{
+    width: 400px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.stories-bg{
+    background: url("../img/bg.png"), url(../img/bg.png), linear-gradient(to bottom, #FFFFFF, rgba(254, 165, 0, 0.3), rgba(254, 165, 0, 0.2));
+    padding: 120px 0;
+
+}
+.stories{
+    max-width: 910px;
+    margin: 0 auto;
+}
+.stories h2{
+    font-size: 3.5em;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.grid-stories-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.grid-stories-items-one{
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.stories-one-content{
+    padding: 10px 20px;
+}
+.stories-one-content h4{
+    font-size: 1.4em;
+    margin: 10px 0;
+}
+.stories-one-content p{
+    font-size: 1em;
+}
+.stories-button{
+    margin-top: -28px;
+    
+}
+.stories-button button{
+    padding: 8px 10px;
+    font-size: 1.2em;
+}
+.stories-button button{
+    background-color: #05D4DF;
+}
+.grid-stories-items-one img{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.grid-stories-items-two{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.grid-our-items{
+    background-color: #fff;
+    border-radius: 10px;
+}
+.grid-stories-items-two > .grid-our-items > img{
+    width: 100%;
+    height: 60%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.grid-our-items h5{
+    font-size: 1.3em;
+    padding: 10px 20px;
+}
+.grid-our-items button{
+    margin-top: 10px;
+    margin-left: 20px;
+    background-color: #95B226;
+}
+.grid-our-items:nth-child(2) button{
+    background-color: #5D58F0;
+}
+.stories-button-black{
+    
+    display: flex;
+    justify-content: center;
+}
+.stories-button-black button{
+    background-color: #111;
+    margin-top: 60px;
+}
